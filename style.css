@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playwrite AU QLD', sans-serif;
+    font-weight: 400;
+}
+.header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 255, 238);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 2rem;
+}
+.header img{
+    height: 80px;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.menu-opt{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 12px;
+    background-color:rgb(180, 251, 226);
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}
+.hero{
+    padding: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8rem;
+    background: linear-gradient(rgb(207, 255, 238), white);
+}
+.hero-image{
+    height:600px;
+    border-radius: 50%;
+}
+.intro h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.intro p{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+}
+.off-btn{
+    background-color: rgb(174, 238, 215);
+    border: none;
+    padding: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2rem;
+}
+.hero-btns{
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 2rem 6rem;
+}
+.hero-btn{
+    display: flex;
+    gap: 2rem;
+    border: 0.5px solid gray;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.hero-btn h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+.hero-icon{
+    width: 7rem;
+    height: 7rem;
+}
+.hero-btn:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1),
+            0 4px 6px rgba(0, 0, 0, 0.05);
+    border: none;
+    transform: scale(1.07);
+}
+
+
+@media (max-width: 1440px) {
+    .hero-btns{
+        padding: 2rem;
+    }
+}
+@media (max-width: 1024px) {
+    .hero-btns{
+        flex-direction: column;
+        padding: 2rem;
+        align-items: center;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        height: 500px;
+    }
+}
+@media (max-width: 425px) {
+    .header_right{
+        display: none;
+    }
+    .hero-image{
+        height: 300px;
+    }
+    .hero{
+        padding: 2rem;
+        gap: 4rem;
+    }
+    .hero-btn{
+        width: 22rem;
+    }
+    .intro h1{
+        font-size: 2.5rem;
+    }
+    .intro p{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 375px) {
+    .hero-btns{
+        padding: 1rem;
+    }
+    .hero-btn{
+        width: 15rem;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .intro h1{
+        font-size: 2rem;
+    }
+    .hero-image{
+        height: 250px;
+    }
+}
