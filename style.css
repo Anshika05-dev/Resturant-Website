@@ -257,6 +257,13 @@ html {
   width: 20rem;
   align-self: center;
 }
+.footer{
+    background-color: rgb(207, 255, 238);
+    padding: 2rem;
+}
+.footer p{
+    text-align: center;
+}
 
 @media (max-width: 1440px) {
   .hero-btns {
