@@ -4,7 +4,6 @@ A clean, modern, and responsive restaurant landing page built using HTML and CSS
 
 [🔗 Live Demo](https://anshika05-dev.github.io/Resturant-Website/)
 
-![Restaurant Preview](images/food-basket.jpg)
 
 ---
 
@@ -32,13 +31,21 @@ A clean, modern, and responsive restaurant landing page built using HTML and CSS
 
 Resturant-Website/
 │
+
 ├── images/ # All images used in the site
+
 │ ├── about.jpg
+
 │ ├── food-basket.jpg
+
 │ ├── hero.avif
+
 │ └── ...more
+
 │
 ├── index.html # Main HTML file
+
 ├── style.css # CSS styling
+
 └── README.md # Project details
 
