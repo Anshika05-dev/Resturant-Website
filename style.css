@@ -365,6 +365,9 @@ html {
 }
 }
 @media (max-width: 320px) {
+    .header_left h2{
+        font-size: 1.2rem;
+    }
   .intro h1 {
     font-size: 2rem;
   }
